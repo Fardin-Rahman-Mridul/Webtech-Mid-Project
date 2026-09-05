@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admission | ABC High School</title>
+
+    <link rel="icon" href="education-logo-design-2023.1-826.webp">
+">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav>
+
+    <a href="index.html">Home</a>
+
+    <a href="about.html">About</a>
+
+    <a href="admission.html">Admission</a>
+
+    <a href="teachers.html">Teachers</a>
+
+    <a href="contact.html">Contact</a>
+
+</nav>
+
+<section>
+
+<h2>Student Registration Form</h2>
+
+<form id="admissionForm">
+
+<label>Student Name</label><br>
+<input type="text" id="studentName"><br><br>
+
+<label>Father's Name</label><br>
+<input type="text" id="fatherName"><br><br>
+
+<label>Mother's Name</label><br>
+<input type="text" id="motherName"><br><br>
+
+<label>Date of Birth</label><br>
+<input type="date" id="dob"><br><br>
+
+<label>Gender</label><br>
+
+<input type="radio" name="gender" value="Male"> Male
+
+<input type="radio" name="gender" value="Female"> Female
+
+<input type="radio" name="gender" value="Other"> Other
+
+<br><br>
+
+<label>Blood Group</label><br>
+
+<select id="blood">
+
+<option value="">Select</option>
+
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+
+</select>
+
+<br><br>
+
+<label>Class</label><br>
+
+<select id="class">
+
+<option>Class 6</option>
+
+<option>Class 7</option>
+
+<option>Class 8</option>
+
+<option>Class 9</option>
+
+<option>Class 10</option>
+
+</select>
+
+<br><br>
+
+<label>Section</label><br>
+
+<select id="section">
+
+<option>A</option>
+
+<option>B</option>
+
+<option>C</option>
+
+</select>
+
+<br><br>
+
+<label>Phone Number</label><br>
+
+<input type="tel" id="phone">
+
+<br><br>
+
+<label>Email</label><br>
+
+<input type="email" id="email">
+
+<br><br>
+
+<label>Address</label><br>
+
+<textarea id="address" rows="4" cols="40"></textarea>
+
+<br><br>
+
+<label>Password</label><br>
+
+<input type="password" id="password">
+
+<br><br>
+
+<label>Confirm Password</label><br>
+
+<input type="password" id="confirmPassword">
+
+<br><br>
+
+<input type="submit" value="Submit">
+
+<input type="reset" value="Reset" onclick="clearForm()">
+
+</form>
+
+</section>
+
+<p id="message"></p>
+
+<footer>
+
+<p>
+
+© 2026 ABC High School. All Rights Reserved.
+
+</p>
+
+</footer>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
