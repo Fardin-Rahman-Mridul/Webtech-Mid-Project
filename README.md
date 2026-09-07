@@ -1,4 +1,4 @@
-# Webtech-Mid-Projec
+# Webtech-Mid-Project
 
 # 🏫 ABC High School — School Management Website
 
