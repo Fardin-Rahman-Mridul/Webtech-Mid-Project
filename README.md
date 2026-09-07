@@ -171,7 +171,7 @@ This project helped demonstrate practical implementation of:
 **Fardin Rahman**
 
 Computer Science & Engineering Student
-AIUB
+,AIUB
 
 ---
 
